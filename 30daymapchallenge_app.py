@@ -1,8 +1,8 @@
 import streamlit as st
 if 'Municipio' in df_year.columns:
-hover_cols.append('Municipio')
+  hover_cols.append('Municipio')
 if 'Departamento' in df_year.columns:
-hover_cols.append('Departamento')
+  hover_cols.append('Departamento')
 
 
 hover_data = {c:True for c in hover_cols}
