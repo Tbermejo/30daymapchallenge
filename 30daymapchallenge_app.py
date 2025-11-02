@@ -4,7 +4,7 @@ import plotly.express as px
 
 # --- Configuración general del dashboard ---
 st.set_page_config(page_title="Mapa PM10 Colombia", layout="wide")
-st.title("🌎 Mapa de Material Particulado (PM10) en Colombia")
+st.title("Mapa de Material Particulado promedio (PM10)")
 
 # --- Cargar datos ---
 df = pd.read_csv('PM10.csv', index_col=0, sep=',', encoding='latin-1')
@@ -73,9 +73,9 @@ fig.update_layout(
 # --- Añadir anotaciones ---
 fig.add_annotation(
     text=str(int(selected_year)),
-    x=0.5, y=0.5,
+    x=0.5, y=0.95,
     xref='paper', yref='paper',
-    font=dict(size=80, color='rgba(255,255,255,0.18)'),
+    font=dict(size=25, color='rgba(255,255,255,0.18)'),
     showarrow=False
 )
 
