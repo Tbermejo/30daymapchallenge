@@ -73,7 +73,7 @@ fig.update_layout(
 # --- Añadir anotaciones ---
 fig.add_annotation(
     text=str(int(selected_year)),
-    x=0.5, y=0.95,
+    x=0.12, y=0.95,
     xref='paper', yref='paper',
     font=dict(size=25, color='rgba(255,255,255,0.18)'),
     showarrow=False
