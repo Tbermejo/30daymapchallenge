@@ -110,5 +110,5 @@ st.plotly_chart(fig, use_container_width=True)
 
 # --- Información adicional ---
 st.sidebar.markdown("---")
-st.sidebar.write(f"📍 Estaciones mostradas: {len(df_year)}")
+st.sidebar.write(f"Número de Estaciones: {len(df_year)}")
 
