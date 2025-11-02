@@ -86,6 +86,19 @@ fig.add_annotation(
     font=dict(size=12, color='white'),
     showarrow=False
 )
+
+fig.add_annotation(
+    text="N",
+    x=0.05, y=-0.95,  # posición relativa en la figura
+    xref="paper", yref="paper",
+    showarrow=True,
+    arrowhead=3,
+    arrowsize=2,
+    arrowwidth=1.5,
+    arrowcolor="black",
+    ax=0,
+    ay=40 
+)
 fig.add_shape(
     type='line', x0=0.05, y0=0.07, x1=0.19, y1=0.07,
     xref='paper', yref='paper',
