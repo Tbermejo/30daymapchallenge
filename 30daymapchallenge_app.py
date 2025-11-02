@@ -89,7 +89,7 @@ fig.add_annotation(
 
 fig.add_annotation(
     text="N",
-    x=0.05, y=-0.95,  # posición relativa en la figura
+    x=0.05, y=0.45,  # posición relativa en la figura
     xref="paper", yref="paper",
     showarrow=True,
     arrowhead=3,
